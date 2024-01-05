@@ -1,0 +1,77 @@
+
+
+/* Style the blue section */
+.blue-section {
+  background-color: aqua;
+  padding: 20px;
+}
+
+.blue-section h1 {
+  text-align: left;
+}
+ .footer img {
+            width: 30px; /* Adjust the width as needed */
+            height: 30px; /* Adjust the height as needed */
+            margin-right: 10px; /* Add some spacing between images */
+        }
+/* Style the information section */
+.info {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+.info-text {
+  flex: 2;
+  margin-top: -8%;
+}
+
+.info-text h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.info-text ul {
+  list-style-type: square;
+  padding-left: 20px;
+}
+
+.info-image {
+  flex: 1;
+  text-align: center;
+}
+
+/* Style the circular image */
+.info-image img {
+  border-radius: 50%;
+  max-width: 200px; /* Adjust the size as needed */
+  border: 2px solid #333;
+}
+
+/* Style the footer */
+.footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+}
+
+/* Style the submit button */
+.submit-button {
+  text-align: center;
+  margin: -60px 0;
+}
+
+.submit-button button {
+  padding: 10px 20px;
+  background-color:aqua;
+  color: black;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+.submit-button button:hover {
+  background-color: #96f5f5;
+}

@@ -1,0 +1,125 @@
+/* Reset some default styles */
+body, ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+/* Logo styles */
+.logo {
+    float: right; /* Move the logo to the right */
+}
+
+.logo img {
+    max-width: 20px; /* Adjust the logo size as needed */
+}
+
+/* Apply background to the entire page */
+body {
+    background-image: url('bluebg.jpg'); /* Replace with your background image */
+    background-size: cover;
+}
+
+/* Header styles */
+header {
+    text-align: left;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8); 
+    overflow: hidden;/* Adjust the background color and opacity as needed */
+}
+
+.menu-left {
+    float: left;
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    
+    
+}
+
+nav li {
+    margin: 0 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #333;
+}
+
+/* Logo styles */
+.logo img {
+    max-width: 100px; /* Adjust the logo size as needed */
+}
+
+/* Main content styles */
+main {
+    text-align: left;
+    padding: 100px;
+}
+
+.content {
+    background-color: rgba(255, 255, 255, 0.8); /* Adjust the background color and opacity as needed */
+    padding: 20px;
+}
+
+.quote blockquote {
+    font-size: 24px;
+    font-style: italic;
+}
+
+.get-started-button {
+    display: inline-block;
+    padding: 15px 40px; /* Adjust the right padding to move it right */
+    background-color: #007BFF;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-left:30px;
+}
+
+
+/* Footer styles */
+/* Footer styles */
+footer {
+    background-color: rgba(51, 51, 51, 0.8);
+    padding: 10px; /* Decrease the padding to make the footer smaller */
+    text-align: center;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.footer-section {
+    flex: 1;
+    text-align: left;
+    padding: 0 10px; /* Decrease the padding for each section */
+}
+
+h3 {
+    font-size: 18px; /* Decrease the font size for headings */
+    margin-bottom: 10px;
+    color: #007BFF; /* Adjust the color as needed */
+}
+
+p {
+    font-size: 14px; /* Decrease the font size for paragraphs */
+    margin: 0;
+    line-height: 1.5;
+    color: white;
+}
+
+.social-icons a {
+    margin: 5px 5px 0 0; /* Decrease the margin for social icons */
+    text-decoration: none;
+    color: white;
+}

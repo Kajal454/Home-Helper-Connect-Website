@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style4.css">
+    <style>
+        /* CSS for circular boxes */
+        .service-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            padding: 20px;
+        }
+
+        .service-box {
+            flex-basis: calc(33.33% - 40px);
+            text-align: center;
+            margin: 20px;
+        }
+
+        .service-image {
+            border-radius: 50%;
+            width: 160px;
+            height: 160px;
+            background-color: #76b852; /* Change the background color */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0 auto;
+        }
+
+        .service-image img {
+            max-width: 100%;
+            max-height: 100%;
+            border-radius: 50%;
+        }
+
+        .service-name {
+            margin-top: 10px;
+            font-size: 16px;
+        }
+    </style>
+    <title>Your Website</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="menu-left">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="logo">
+                <img src="logo.png" alt="Logo">
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="service-container">
+            <!-- Row 1 -->
+            <div class="service-box">
+           <a href ="carpenter.html">
+                <div class="service-image">
+                    <img src="carpainter.png" alt="Painter">
+                </div>
+                <div class="service-name">Carpenter</div>
+                </a>
+            </div>
+            
+            <div class="service-box">
+            <a href ="electrician.html">
+                <div class="service-image">
+                    <img src="electrician.png" alt="Carpenter">
+                </div>
+                <div class="service-name">electrician</div>
+                </a>
+            </div>
+            <div class="service-box">
+                <div class="service-image">
+                <a href ="plumber.html">
+                    <img src="plumber.jpg" alt="Worker">
+                </div>
+                <div class="service-name">plumber</div>
+                </a>
+            </div>
+            <!-- Row 2 -->
+            <div class="service-box">
+                <div class="service-image">
+                   <a href ="housecleaning.html">
+                    <img src="housecleaning.png" alt="Maid">
+                </div>
+                <div class="service-name">House Cleaning</div>
+                </a>
+            </div>
+            <div class="service-box">
+                <div class="service-image">
+                <a href ="pestcontrol.html">
+                    <img src="pest.png" alt="pest">
+                </div>
+                <div class="service-name">Pestcontrol</div>
+                </a>
+            </div>
+            <div class="service-box">
+                <div class="service-image">
+                <a href ="painter.html">
+                    <img src="painter.jpg" alt="painter"width='158' height='165'>
+                </div>
+                <div class="service-name">Wall painting</div>
+           </a>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
